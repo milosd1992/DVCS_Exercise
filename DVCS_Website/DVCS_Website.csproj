@@ -396,6 +396,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DVCSSystem.Data\DVCSSystem.Data.csproj">
+      <Project>{86e8fa12-7658-4121-ae19-15ad4baf7737}</Project>
+      <Name>DVCSSystem.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DVCSSystem\DVCSSystem.csproj">
+      <Project>{6e10c99f-66e6-40f6-bf4f-5aa39c22c344}</Project>
+      <Name>DVCSSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
