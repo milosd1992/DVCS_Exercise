@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVCS_Website", "DVCS_Websit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVCSSystem", "DVCSSystem\DVCSSystem.csproj", "{6E10C99F-66E6-40F6-BF4F-5AA39C22C344}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVCSSystem.Data", "DVCSSystem.Data\DVCSSystem.Data.csproj", "{86E8FA12-7658-4121-AE19-15AD4BAF7737}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6E10C99F-66E6-40F6-BF4F-5AA39C22C344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E10C99F-66E6-40F6-BF4F-5AA39C22C344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E10C99F-66E6-40F6-BF4F-5AA39C22C344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E8FA12-7658-4121-AE19-15AD4BAF7737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E8FA12-7658-4121-AE19-15AD4BAF7737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E8FA12-7658-4121-AE19-15AD4BAF7737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E8FA12-7658-4121-AE19-15AD4BAF7737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
